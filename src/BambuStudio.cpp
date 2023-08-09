@@ -9,7 +9,7 @@
     #ifdef SLIC3R_GUI
     extern "C"
     {
-        // Let the NVIDIA and AMD know we want to use their graphics card
+        // Let the NVIDIA and AMD know we want to use their graphics card 1
         // on a dual graphics card system.
         __declspec(dllexport) DWORD NvOptimusEnablement = 0x00000001;
         __declspec(dllexport) int AmdPowerXpressRequestHighPerformance = 1;
